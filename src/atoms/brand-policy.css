@@ -1,0 +1,7 @@
+.brand-policy {
+  font: var(--font-style-normal) normal var(--font-weight-normal) var(--font-size-14)/var(--line-spacing-17-5) 'ProximaNova-Regular';
+  letter-spacing: var(--character-spacing-0);
+  color: var(--unnamed-color-172026);
+  text-align: right;
+  text-decoration: underline;
+}

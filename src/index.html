@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Venia Online shopping</title>
+  <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet'>
+</head>
+
+<body>
+  <div class="app">
+    <div class="page home">
+
+      <header class="site-header">
+        <div class="site-header__content">
+          <nav class="site-nav-mobile" role="navigation">
+            <div id="site-nav-mobile__container">
+              <input type="checkbox" />
+              <span></span>
+              <span></span>
+              <span></span>
+              <ul class="site-nav">
+                <li class="site-nav__item"><a href="#">Home</a></li>
+                <li class="site-nav__item"><a href="#">Women</a></li>
+                <li class="site-nav__item"><a href="#">Men</a></li>
+                <li class="site-nav__item"><a href="#">Electronics</a></li>
+                <li class="site-nav__item"><a href="#">Jewellery</a></li>
+              </ul>
+            </div>
+          </nav>
+          <div class="brand-logo">
+          </div>
+          <nav class="site-nav-desktop" role="navigation">
+            <ul class="site-nav">
+              <li class="site-nav__item"><a href="/">Home</a></li>
+              <li class="site-nav__item"><a href="/products/category/women">Women</a></li>
+              <li class="site-nav__item"><a href="/products/category/men">Men</a></li>
+              <li class="site-nav__item"><a href="/products/category/electronics">Electronics</a></li>
+              <li class="site-nav__item"><a href="/products/category/accessories">Jewellery</a></li>
+            </ul>
+          </nav>
+          <div class="cart">
+            <span class="cart__added-item">10</span>
+          </div>
+        </div>
+      </header>
+      <div id="app-dynamic-content">
+
+        <!-- <section id="app" class="site-banner">
+          <slider>
+
+          </slider>
+          <div class="product-category">
+
+          </div>
+
+        </section>
+        <section>
+          <div>
+
+          </div>
+          <div>
+
+          </div>
+        </section>
+
+        <section>
+
+        </section> -->
+      </div>
+      <footer class="site-footer">
+        <div class="site-footer__nav-wrapper">
+          <div class="site-footer__nav-content site-content-width">
+            <ul class="site-footer__nav">
+              <li class="site-footer__nav-item">Account</li>
+              <li class="site-footer__nav-item"><a href="#">Sign In</a></li>
+              <li class="site-footer__nav-item"><a href="#">Register</a></li>
+              <li class="site-footer__nav-item"><a href="#">Order Status</a></li>
+            </ul>
+            <ul class="site-footer__nav">
+              <li class="site-footer__nav-item">About Us</li>
+              <li class="site-footer__nav-item"><a href="#">Sign In</a></li>
+              <li class="site-footer__nav-item"><a href="#">Register</a></li>
+              <li class="site-footer__nav-item"><a href="#">Order Status</a></li>
+            </ul>
+            <ul class="site-footer__nav">
+              <li class="site-footer__nav-item">Help</li>
+              <li class="site-footer__nav-item"><a href="#">Sign In</a></li>
+              <li class="site-footer__nav-item"><a href="#">Register</a></li>
+              <li class="site-footer__nav-item"><a href="#">Order Status</a></li>
+            </ul>
+            <ul class="site-footer__nav">
+              <li class="site-footer__nav-item">Follow Us!</li>
+              <li class="site-footer__nav-item description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore.</li>
+              <li class="site-footer__nav-item social">
+                <a class="instagram-icon" href="#"></a>
+                <a class="facebook-icon" href="#"></a>
+                <a class="twitter-icon" href="#"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="site-footer__policy">
+          <div class="site-footer__policy-content site-content-width">
+            <div class="brand-policy__wrapper">
+              <a class="brand-policy" href="#">Terms of Use</a>
+              <a class="brand-policy" href="#">Privacy Policy</a>
+            </div>
+
+            <p class="brand-address">© Company Name Address Ave, City Name, State ZIP</p>
+
+            <div class="brand-logo-black"></div>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+  </div>
+  <template id="product-detail">
+    <div class="product-detail__container">
+      <div class="product-detail__info">
+        <div class="product-detail__img-container">
+          <img class="product-detail__img" />
+        </div>
+        <div class="product-detail__prime-info">
+          <div class="category-breadcrum"></div>
+          <div class="product-detail__name"></div>
+          <div class="product-detail__price"></div>
+          <div class="product-detail__rating"></div>
+          <div class="product-detail__breif"></div>
+          <div class="product-detail__quantity"></div>
+          <div class="product-detail__add-to-cart"></div>
+          <div class="product-detail__share"></div>
+
+        </div>
+      </div>
+      <div class="product-detail__desc-container">
+        <h3 class="product-detail__title"></h3>
+          <h6 class="product-detail__desc"></h6>
+          <span class="line__primary-color"></span>
+      </div>
+    </div>
+  </template>
+  <template id="site-nav">
+    <!--  class="nav-desktop__item" -->
+    <ul class="site-nav">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Women</a></li>
+      <li><a href="#">Men</a></li>
+      <li><a href="#">Electronics</a></li>
+      <li><a href="#">Jewellery</a></li>
+    </ul>
+  </template>
+  <template id="product-list-by-category">
+    <div class="product-list__wrapper">
+      <div class="product-list__content site-content-width">
+        <div class="category-filter">
+          <div class="breadcrumb-nav">Clothing <span></span></div>
+          <h5>Filters</h5>
+          <h6>Categories</h6>
+          <div class="category-filter__list">
+            <div>
+              <input type="checkbox" name="jewellery" />
+              <label for="jewellery">Jewellery</label>
+            </div>
+
+            <div>
+              <input type="checkbox" name="electronics" />
+              <label for="electronics">Electronics</label>
+            </div>
+            <div>
+              <input type="checkbox" name="menClothing" />
+              <label for="menClothing">Men's Clothing</label>
+            </div>
+            <div>
+              <input type="checkbox" name="womenClothing" />
+              <label for="womenClothing">Women's Clothing</label>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="product-list__by-category"> -->
+
+        <div class="product-list__by-category">
+          <div class="product-list__sort-container">
+            <span class="product-list__count"></span>
+            <select class="product-list__sort-nav">
+              <option></option>
+              <option></option>
+            </select>
+          </div>
+          <div class="product-list">
+
+          </div>
+          <!-- <div class="product-list-pagination"></div> -->
+        </div>
+        <!-- </div> -->
+      </div>
+    </div>
+  </template>
+  <template id="product-list-item">
+    <a href="#" class="product">
+      <div class="product__image"><img /></div>
+      <div class="product__title"></div>
+      <div class="product__price"></div>
+      <button class="product__favorite favorite-icon"></button>
+    </a>
+  </template>
+  <script type="module" src="./app.js"></script>
+</body>
+
+</html>

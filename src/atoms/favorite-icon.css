@@ -1,0 +1,5 @@
+.favorite-icon {
+  width: 16px;
+  height: 16px;
+  background: transparent url('../img/heart.png') 0% 0% no-repeat padding-box;
+}

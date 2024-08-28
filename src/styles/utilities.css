@@ -1,0 +1,8 @@
+  .site-content-width {
+    max-width: 344px;
+  }
+  @media (min-width: 1024px) {
+    .site-content-width {
+      max-width: 1376px;
+    }
+  }

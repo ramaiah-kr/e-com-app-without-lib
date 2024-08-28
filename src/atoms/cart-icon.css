@@ -1,0 +1,23 @@
+.cart {
+  position: relative;
+  width: 22px;
+  height: 24px;
+  background: transparent url('../img/cart-icon.png') 0% 0% no-repeat padding-box;
+  background-size: contain;
+}
+
+.cart__added-item {
+  position: absolute;
+  left: 9px;
+  bottom: 12px;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  background: var(--primary-m1) 0% 0% no-repeat padding-box;
+
+  font: var(--font-style-normal) normal var(--font-weight-600) 0.72rem var(--font-family-muli);
+  letter-spacing: var(--character-spacing-0);
+  color: var(--white);
+  padding-top: 3px;
+  text-align: center;
+}

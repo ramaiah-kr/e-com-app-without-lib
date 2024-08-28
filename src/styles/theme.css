@@ -1,0 +1,200 @@
+:root {
+  /* Colors: */
+  --primary-d1: #47B5FF;
+  --primary-m1: #06283D;
+  --primary-brand: #1363DF;
+  --primary-l1: #DFF6FF;
+  --gray-d2: #181C24;
+  --gray-d1: #535965;
+  --gray-m1: #91959C;
+  --gray-l2: #B5B7BC;
+  --gray-l1: #E5E5E7;
+  --white: #FFFFFF;
+  --positive-2: #12805C;
+  --positive-1: #268E6C;
+  --negative-2: #C9252D;
+  --negative-1: #D7373F;
+
+  --font-color: #172026;
+
+  /* Font/text values */
+  --font-family-muli: Muli;
+  --font-family-source-serif-pro: Source Serif Pro;
+  --font-style-normal: normal;
+  --font-style-italic: italic;
+  --font-weight-600: 500;
+  --font-weight-normal: normal;
+  --font-weight-bold: bold;
+  --font-size-14: 0.875rem;
+  --font-size-16: 1rem;
+  --font-size-20: 1.25rem;
+  --font-size-24: 1.5rem;
+  --font-size-36: 2.25rem;
+  --font-size-48: 3rem;
+  --character-spacing-0: 0px;
+  --line-spacing-20: 1.24rem;
+  --line-spacing-21: 21rem;
+  --line-spacing-24: 1.5rem;
+  --line-spacing-25: 1.563rem;
+  --line-spacing-30: 1.875rem;
+  --line-spacing-32: 2rem;
+  --line-spacing-45: 2.813rem;
+  --line-spacing-60: 3.75rem;
+  --line-spacing-17-5: 1.094rem;
+}
+
+/* Character Styles */
+.display-xl-48-dekstop-only {
+  font-family: var(--font-family-source-serif-pro);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-600);
+  font-size: var(--font-size-48);
+  line-height: var(--line-spacing-60);
+  letter-spacing: var(--character-spacing-0);
+  color: var(--font-color);
+}
+
+.display-l-36- {
+  font-family: var(--font-family-source-serif-pro);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-600);
+  font-size: var(--font-size-36);
+  line-height: var(--line-spacing-45);
+  letter-spacing: var(--character-spacing-0);
+  color: var(--font-color);
+}
+
+.display-m-24- {
+  font-family: var(--font-family-source-serif-pro);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-600);
+  font-size: var(--font-size-24);
+  line-height: var(--line-spacing-30);
+  letter-spacing: var(--character-spacing-0);
+  color: var(--font-color);
+}
+
+.display-s-20- {
+  font-family: var(--font-family-source-serif-pro);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-600);
+  font-size: var(--font-size-20);
+  line-height: var(--line-spacing-25);
+  letter-spacing: var(--character-spacing-0);
+  color: var(--font-color);
+}
+
+.regular-heading-xl-24- {
+  font-family: var(--font-family-muli);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-600);
+  font-size: var(--font-size-24);
+  line-height: var(--line-spacing-30);
+  letter-spacing: var(--character-spacing-0);
+  color: var(--font-color);
+}
+
+.regular-heading-l-20- {
+  font-family: var(--font-family-muli);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-600);
+  font-size: var(--font-size-20);
+  line-height: var(--line-spacing-25);
+  letter-spacing: var(--character-spacing-0);
+  color: var(--font-color);
+}
+
+.regular-heading-m-16- {
+  font-family: var(--font-family-muli);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-600);
+  font-size: var(--font-size-16);
+  line-height: var(--line-spacing-20);
+  letter-spacing: var(--character-spacing-0);
+  color: var(--font-color);
+}
+
+.regular-heading-s-14- {
+  font-family: var(--font-family-muli);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-14);
+  line-height: var(--line-spacing-17-5);
+  letter-spacing: var(--character-spacing-0);
+  color: var(--font-color);
+}
+
+.regular-body-l-20- {
+  font-family: var(--font-family-muli);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-normal);
+  font-size: var(--font-size-20);
+  line-height: var(--line-spacing-30);
+  letter-spacing: var(--character-spacing-0);
+  color: var(--font-color);
+}
+
+.regualr-body-m-16- {
+  font-family: var(--font-family-muli);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-normal);
+  font-size: var(--font-size-16);
+  line-height: var(--line-spacing-24);
+  letter-spacing: var(--character-spacing-0);
+  color: var(--font-color);
+}
+
+.regular-body-s-14- {
+  font-family: var(--font-family-muli);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-normal);
+  font-size: var(--font-size-14);
+  line-height: var(--line-spacing-21);
+  letter-spacing: var(--character-spacing-0);
+  color: var(--font-color);
+}
+
+.blockquote {
+  font-family: var(--font-family-muli);
+  font-style: var(--font-style-italic);
+  font-weight: var(--font-weight-normal);
+  font-size: var(--font-size-20);
+  line-height: var(--line-spacing-30);
+  letter-spacing: var(--character-spacing-0);
+  color: var(--gray-d2);
+}
+
+.numbered-list {
+  font-family: var(--font-family-muli);
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-normal);
+  font-size: var(--font-size-16);
+  line-height: var(--line-spacing-32);
+  letter-spacing: var(--character-spacing-0);
+  color: var(--gray-d2);
+}
+
+
+html {
+  font-family: var(--font-family-muli);
+  font-size: 100%;
+  line-height: 1.5;
+  font-style: var(--font-style-normal);
+  font-weight: var(--font-weight-normal);
+
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+body {
+  margin: 0;
+  line-height: inherit;
+  letter-spacing: var(--character-spacing-0);
+  color: var(--font-color);
+  -webkit-font-smoothing: antialiased;
+}
